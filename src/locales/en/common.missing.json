@@ -1,0 +1,10 @@
+{
+  "common": {
+    "appName": "AVO",
+    "description": "AVO is a celebrity entertainment booking & concierge service created by industry veterans. Made for the culture by those who live it."
+  },
+  "appName": "appName",
+  "footer": {
+    "subscriptionTitle": "footer.subscriptionTitle"
+  }
+}

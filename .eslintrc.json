@@ -1,0 +1,28 @@
+{
+    "extends": "airbnb",
+    "plugins": [
+        "import"
+    ],
+    "rules": {
+        "react/jsx-filename-extension": "off",
+        "import/no-dynamic-require": "off",
+        "eol-last": "off",
+        "import/prefer-default-export": "off",
+        "import/no-unresolved": [2, {"commonjs": true, "amd": true}],
+        "import/named": 2,
+        "import/namespace": 2,
+        "import/default": 2,
+        "import/export": 2
+    },
+    "settings": {
+        "import/resolver": {
+          "node": {
+            "paths": ["src"],    
+            "extensions": [
+              ".js",
+              ".jsx"
+            ]
+          }
+        }
+      }
+}
